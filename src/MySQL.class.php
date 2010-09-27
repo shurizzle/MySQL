@@ -451,11 +451,11 @@ class MySQL { /* {{{ */
     /* }}} */
 
     /* getQueries {{{ */
-    public function
     /**
      * Get {@link $queries}.
      * @return array All executed queries.
      */
+    public function
     getQueries() {
         return $this->queries;
     }

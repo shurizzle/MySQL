@@ -537,11 +537,11 @@ class MySQL { /* {{{ */
     /* }}} */
 
     /* selectDB {{{ */
-    public function
     /**
      * Select a database.
      * @param string $database Database to use.
      */
+    public function
     selectDB($database) {
         $this->checkConnection();
         if ($this->isValidString($database))
